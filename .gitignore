@@ -1,0 +1,59 @@
+# IDEA
+.idea
+.shelf
+*.iws
+*.iml
+*.ipr
+*.ids
+**/out/
+classes/
+bin/
+rebel.xml
+
+# Eclipse
+.project
+.settings
+.classpath
+.metadata
+.recommenders
+.pydevproject
+RemoteSystemsTempFiles/
+
+# NetBeans
+.nb-gradle
+.nb-gradle-properties
+nbproject
+nbactions.xml
+
+# Mac junk
+.DS_Store
+
+# Binary
+*.class
+*.jar
+*.war
+*.zip
+*.tar.*
+
+# Gradle
+.gradle/
+build/
+reports/
+
+# Maven
+target/
+
+# Other temp files
+*.log*
+.pid.lock
+
+# bkp files
+*.bak
+*.orig
+
+# Avoid ignoring Gradle wrapper
+!gradle/wrapper/*
+
+**/bin/
+**/src/main/generated
+**/src/main/gen
